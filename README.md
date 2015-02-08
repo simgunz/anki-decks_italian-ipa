@@ -11,6 +11,8 @@ Prima di usare questo mazzo raccomando di guardare i [video tutorial sulla pronu
 presenti su fluent-forever.com e di leggere i seguenti articoli di Wikipedia (almeno l'introduzione). I link puntano
 alle pagine inglesi di wikipedia ma da lì è facile passare alle pagine italiane.
 
+Le carte taggate 'allophone' possono essere sospese in un primo momento visto che possono essere considerate come un argomento avanzato.
+
 ----------------------------------------------------------------------------------------------------------------
 
 This anki deck is based on the language learning method presented by Gabriel Wyner on fluent-forever.com and
@@ -32,6 +34,7 @@ hosted on fluent-forever.com and to read the following Wikipedia articles (at le
 * [Manner of articulation](http://en.wikipedia.org/wiki/Manner_of_articulation)
 * [Voice](http://en.wikipedia.org/wiki/Voice_(phonetics))
 
+The cards tagged 'allophone' may be suspended in a first moment since they can considered an advanced topic.
 
 Building the deck
 =================
