@@ -13,6 +13,10 @@ alle pagine inglesi di wikipedia ma da lì è facile passare alle pagine italian
 
 Le carte taggate 'allophone' possono essere sospese in un primo momento visto che possono essere considerate come un argomento avanzato.
 
+Il termine tra parentesi tonde () specifica meglio la caratteristica articolatoria.
+
+Il termine tra parentesi quadre  [] è il nome alternativo comune della caratteristia artiolatoria.
+
 ----------------------------------------------------------------------------------------------------------------
 
 This anki deck is based on the language learning method presented by Gabriel Wyner on fluent-forever.com and
@@ -35,6 +39,10 @@ hosted on fluent-forever.com and to read the following Wikipedia articles (at le
 * [Voice](http://en.wikipedia.org/wiki/Voice_(phonetics))
 
 The cards tagged 'allophone' may be suspended in a first moment since they can considered an advanced topic.
+
+The term between parenthesis () specifies better the articulatory feature.
+
+The term between brackets [] is a common alternative name of the articulatory feature.
 
 Building the deck
 =================
