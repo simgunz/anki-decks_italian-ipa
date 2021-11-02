@@ -7,6 +7,7 @@ license = "CC BY-NC-SA"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+Brain-Brew = "^0.3.6"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
