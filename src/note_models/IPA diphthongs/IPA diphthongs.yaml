@@ -1,0 +1,35 @@
+name: IPA diphthongs
+id: a60b1e46-3bb1-11ec-ab2e-74e5f984f594
+css_file: src/note_models/IPA diphthongs/style.css
+sort_field_num: 1
+fields:
+- name: Note ID
+  font_size: 10
+- name: IPA phone symbol
+- name: IPA phone strict transcription
+  font: Arial
+- name: IPA phoneme symbol
+- name: Examples
+  font_size: 12
+- name: Diphthong type
+  font_size: 12
+- name: Notes
+  font_size: 12
+- name: Pronunciation sound
+  font_size: 12
+- name: Example sounds
+  font_size: 12
+templates:
+- name: Forward
+  html_file: src/note_models/IPA diphthongs/Forward.html
+- name: Reverse
+  html_file: src/note_models/IPA diphthongs/Reverse.html
+required_fields_per_template:
+- - 0
+  - any
+  - - 1
+    - 2
+    - 3
+- - 1
+  - any
+  - - 7

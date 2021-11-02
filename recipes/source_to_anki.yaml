@@ -1,0 +1,52 @@
+- generate_guids_in_csvs:
+    source:
+    - src/data/IPA consonant.csv
+    - src/data/IPA vowel.csv
+    - src/data/IPA diphthongs.csv
+    columns:
+    - guid
+- build_parts:
+  - note_models_from_yaml_part:
+      part_id: IPA consonant
+      file: src/note_models/IPA consonant/IPA consonant.yaml
+  - note_models_from_yaml_part:
+      part_id: IPA vowel
+      file: src/note_models/IPA vowel/IPA vowel.yaml
+  - note_models_from_yaml_part:
+      part_id: IPA diphthongs
+      file: src/note_models/IPA diphthongs/IPA diphthongs.yaml
+  - headers_from_yaml_part:
+      part_id: deck_headers
+      file: src/headers/header1.yaml
+  - notes_from_csvs:
+      part_id: deck_notes
+      save_to_file: null
+      file_mappings:
+      - file: src/data/IPA consonant.csv
+        note_model: IPA consonant
+      - file: src/data/IPA vowel.csv
+        note_model: IPA vowel
+      - file: src/data/IPA diphthongs.csv
+        note_model: IPA diphthongs
+      note_model_mappings:
+      - note_models:
+        - IPA consonant
+        - IPA vowel
+        - IPA diphthongs
+  - media_group_from_folder:
+      part_id: deck_media
+      source: src/media/
+      recursive: true
+- generate_crowd_anki:
+    folder: build/.
+    notes:
+      part_id: deck_notes
+    note_models:
+      parts:
+      - part_id: IPA consonant
+      - part_id: IPA vowel
+      - part_id: IPA diphthongs
+    headers: deck_headers
+    media:
+      parts:
+      - deck_media

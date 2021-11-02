@@ -1,0 +1,33 @@
+- build_parts:
+  - headers_from_crowd_anki:
+      part_id: deck_headers
+      source: build/.
+  - notes_from_crowd_anki:
+      part_id: deck_notes
+      source: build/.
+  - note_models_all_from_crowd_anki:
+      source: build/.
+  - media_group_from_crowd_anki:
+      part_id: deck_media
+      source: build/.
+      recursive: true
+- save_media_groups_to_folder:
+    parts:
+    - deck_media
+    folder: src/media/
+    clear_folder: true
+    recursive: true
+- generate_csvs:
+    notes: deck_notes
+    file_mappings:
+    - file: src/data/IPA consonant.csv
+      note_model: IPA consonant
+    - file: src/data/IPA vowel.csv
+      note_model: IPA vowel
+    - file: src/data/IPA diphthongs.csv
+      note_model: IPA diphthongs
+    note_model_mappings:
+    - note_models:
+      - IPA consonant
+      - IPA vowel
+      - IPA diphthongs
