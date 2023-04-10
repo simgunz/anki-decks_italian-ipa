@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "italian_ipa"
-version = "1.4.0"
+version = "1.5.0"
 description = "Anki deck with IPA symbols for phonemes and phones of the Italian language"
 authors = ["Simone Gaiarin <simgunz@gmail.com>"]
 license = "CC BY-NC-SA"
